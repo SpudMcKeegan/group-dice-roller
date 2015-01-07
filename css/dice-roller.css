@@ -1,0 +1,52 @@
+.column{
+	width: 130px;
+	float: left;
+	font-size: 12px;
+	height: 500px;
+	overflow-y: scroll;
+	padding: 10px;
+}
+.columnWrapper{
+	width: 150px;
+	float: left;
+	height: 500px;
+	overflow: hidden;
+	margin-left: 10px;
+	border: 1px solid rgb(0, 0, 0);
+	margin-top: 20px;
+}
+.textfieldRequiredMsg{
+	display: none;
+	color: red;
+}
+h1{
+	padding: 5px;
+	text-align: center;
+}
+input[type='button']{
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+}
+#timeLeft{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	border: 1px solid #000;
+	font-size: 30px;
+	height: 40px;
+	width: 100px;
+	text-align: center;
+}
+.rolls-area{
+	position: none;
+	float: left;
+}
+.clear{
+	clear: both;
+}
+
+#users{
+	float: left;
+	position: relative;
+}
